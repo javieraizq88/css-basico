@@ -1,0 +1,40 @@
+/* font: font-style || font-variant || font-weight || font-size / line-height || familia de fuente */
+/* background: background-color || background-image || background-repeat || background-attachment || background-position */
+/* Margin: longitud | porcentaje | auto */
+/* Padding: longitud | porcentaje | auto */
+/* Border: border-width || border-style || color */
+
+
+
+Body {
+    background: #FFF url(../images/ejemplo.gif) no-repeat fixed center;
+    margin: 5px /* todos los márgenes a 5px */ ;
+    padding: 2em 3em 4em 5em /* Si definimos cuatro valores estamos aplicando el padding superior, derecho, inferior e izquierdo */
+}
+
+/* funcion para la primera letra de cada parrafo */
+P:first-letter  { 
+    font-size: 200%; 
+    color: #993333; font-weight: bold; 
+}
+/* Pseudo-element first-line */
+P:first-line { 
+    text-decoration: underline; 
+    font-weight: bold; 
+ }
+ /* Uso de clases con los pseudo-elementos */
+ P.nombreclase:first-line { 
+    font-weight: bold; 
+}
+P {
+    font: italic normal bold 12px/14pt Verdana, Tahoma, Arial;
+    margin: 2px 4px /* márgenes superior e inferior a 2px, márgenes izquierdo y derecho a 4px */
+}
+
+DIV {
+    margin: 1px 2px 3px 4px /* margen superior a 1px, right margin a 2px, bottom margin a 3px, left margin a 4px */
+} 
+
+H3 {
+    border: thick dotted blue
+}
