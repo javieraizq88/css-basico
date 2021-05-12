@@ -1,0 +1,29 @@
+body {
+    background-color: #f0f0f0;
+    color: #333366;
+}
+
+h1,
+p {
+    color: red;
+}
+
+.miclase {
+    color: blue;
+}
+
+body,
+td,
+p {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.inverso {
+    background-color: #ffffff;
+    color: #000000;
+}
+#capa1{ 
+font-size: 12pt; 
+font-family: arial; 
+}
