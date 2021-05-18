@@ -20,5 +20,10 @@
     z-index: 2;
 }
 .div3{
-
+    position: fixed; width: 100px; 
+    height: 30px; padding: 10px; 
+    background-color: #0df; 
+    bottom: 10px; 
+    right: 10px; 
+    z-index: 4;
 }
