@@ -1,0 +1,15 @@
+.div1{
+    background-color: #606; 
+    color:#ffc; 
+    padding:10px; 
+    text-align: center; 
+    width: 300px;
+}
+.div2{
+    position: relative; 
+    width: 300px; 
+    padding: 10px; 
+    background-color: #066; 
+    color:#ffc; 
+    top:100px; left: 30px;
+}
