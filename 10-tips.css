@@ -1,0 +1,20 @@
+.contenedor {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 900px;
+    border: black 1px solid;
+}
+
+.caja {
+    float: left;
+    width: 300px;
+    border: green 2px solid;
+}
+
+.pie {
+    width: 900px;
+    background-color: #666666;
+    color: white;
+}
